@@ -15,7 +15,7 @@ namespace HRManageApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    
+    [Authorize]
     
     public class LeaveRequestController : ControllerBase
     {
